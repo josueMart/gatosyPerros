@@ -1,0 +1,16 @@
+/*Secciones del sitio*/
+
+.home{
+	/*se agrega un fondo blanco, se dice la ruta de la imagen, que no repita la imagen, que la centre horizontal y 
+	verticalmente y que la deje fija*/
+	background: #FFFFFF url('../assets/5626e7fc277041a3a77fcdc2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20% 0;
+	box-sizing: border-box; /*Para respetar el tamaño del section*/ 
+
+}
