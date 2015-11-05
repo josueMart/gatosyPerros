@@ -1,25 +1,38 @@
 /* Layout */
 header, footer{
 	background-color: #282828;
-	position: absolute;
+	position: fixed;
+	padding: 20px 0;
+	box-sizing:border-box;
 	width: 100%;
+	color: #C3C1C1;
+
 }
+
+.layout_a{
+	color: #C3C1C1;
+}
+
+header{
+	top: 0;
+}
+
+footer{
+	bottom: 0;
+}
+
 header img{
 	width: 250px;
 	display:block;
 }
-nav ul li{
-	color: #FFFFFF;
-	display: inline; /*Se muestran los links en linea horizontal*/
+
+
+
+
+
+/*nav ul li{
+	/*color: #FFFFFF;
+	display: inline; Se muestran los links en linea horizontal
 	font-weight: 400;
 
-}
-footer{
-	padding: 20px 0;
-	box-sizing:border-box;
-}
-footer, footer a{
-	color: #FFFFFF;
-
-
-}
+}*/

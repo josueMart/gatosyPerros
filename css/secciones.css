@@ -12,5 +12,6 @@
 	color: #FFFFFF;
 	padding: 20% 0;
 	box-sizing: border-box; /*Para respetar el tamaño del section*/ 
+	height: 100%
 
 }
